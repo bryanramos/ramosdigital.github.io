@@ -278,15 +278,13 @@
     
 </style>
 
-<script>
-    $( document ).ready(function() {
-
+<script type="text/javascript">
+    (function(){
     var burger = document.querySelector('.burger-container'),
         header = document.querySelector('.header');
     
     burger.onclick = function() {
         header.classList.toggle('menu-opened');
     }
-
-});
+}());
 </script>
